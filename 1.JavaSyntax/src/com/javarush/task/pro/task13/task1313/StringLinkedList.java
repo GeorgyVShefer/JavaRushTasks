@@ -14,6 +14,9 @@ public class StringLinkedList {
 
     public void add(String value) {
         //напишите тут ваш код
+        Node node = new Node();
+        node.value = value;
+        
     }
 
     public static class Node {
